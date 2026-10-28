@@ -1,0 +1,19 @@
+{
+  "name": "arc-mobile-browser",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arc-inspired mobile browser built with Capacitor",
+  "scripts": {
+    "add:android": "cap add android",
+    "sync": "cap sync android",
+    "open:android": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/browser": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0"
+  }
+}
